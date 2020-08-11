@@ -1,0 +1,1 @@
+console.log("Hi there. Service Worker's present");

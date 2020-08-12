@@ -20,6 +20,10 @@ mongoose.connect("mongodb://localhost/budget", {
   useFindAndModify: false
 });
 
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://user27:password27@ds153775.mlab.com:53775/heroku_lqskm1vm",
+) 
+
 // routes
 app.use(require("./routes/api.js"));
 

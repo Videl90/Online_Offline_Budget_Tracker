@@ -20,9 +20,13 @@ mongoose.connect("mongodb://localhost/budget", {
   useFindAndModify: false
 });
 
-//mongoose.connect(
-  //process.env.MONGODB_URI || "mongodb://user27:password27@ds153775.mlab.com:53775/heroku_lqskm1vm",
-//
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://User27:Password27@ds263928.mlab.com:63928/heroku_l4mqwxq7",
+  {
+    useMongoClient: true
+  }
+);
+
 
 // routes
 app.use(require("./routes/api.js"));

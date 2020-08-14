@@ -1,25 +1,39 @@
 body {
   font-size: 120%;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1e1f2b;
 }
 
-button, input {
+button {
   font-size: 100%;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #cbcff8;
+  color: #1e1f2b;
+  border:none;
+}
+
+.inputs{
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 table {
   width: 100%;
+  color: #cbcff8;
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #fab2d6;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color:#1e1f2b;
 }
 
 .error {
@@ -34,7 +48,10 @@ tr:nth-child(even) {
 
 .total {
   font-size: 150%;
-  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  color: #fab2d6;
+  
+  
 }
 
 .form {
@@ -48,4 +65,12 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+.fa-plus{
+  color: #5b66e6;
+}
+
+.fa-minus{
+  color: #5b66e6;
 }
